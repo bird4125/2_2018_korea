@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		.box{position: relative; width:200px; height:200px;}
+		.box>div{position:absolute;transition:1s;}
+		.box>div:nth-child(1){top:0;left:40%;right:40%;height:10px;border-radius:5px;border-top: 1px solid #000;}
+		.box>div:nth-child(2){top:40%;bottom:40%;right:0;width:10px;border-radius:5px;border-right: 1px solid #000;}
+		.box>div:nth-child(3){bottom:0;left:50%;right:50%;height:10px;border-radius:5px;border-bottom: 1px solid #000;}
+		.box>div:nth-child(4){top:50%;bottom:50%;left:0;width:10px;border-radius:5px;border-left: 1px solid #000;}
+		.box:hover>div:nth-child(1),
+		.box:hover>div:nth-child(3){left:0;right:0;}
+		.box:hover>div:nth-child(2),
+		.box:hover>div:nth-child(4){top:0;bottom:0;}
+
+		.box2{ border-radius:10px; width:50px; height:30px; border:1px solid #000; }
+	</style>
+</head>
+<body>
+	<div class="box">
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+	</div>
+	<div class="box2">
+		
+	</div>
+</body>
+</html>

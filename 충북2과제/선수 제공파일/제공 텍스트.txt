@@ -1,0 +1,11 @@
+- gallery
+Lorem ipsum dolor
+sed do eiusmod por
+
+
+
+
+- footer
+Lorem ipsum dolor sit amet, consectetur
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
