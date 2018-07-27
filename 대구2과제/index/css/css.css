@@ -14,6 +14,7 @@ input[type="checkbox"] { display: none; }
 #season2:checked ~ #wrap .section3 .sec3_box li:nth-child(1)>.img{background: url(../image/img11.jpg) no-repeat center / cover;}
 #season2:checked ~ #wrap .section3 .sec3_box li:nth-child(2)>.img{background: url(../image/img12.jpg) no-repeat center / cover;}
 #season2:checked ~ #wrap .section3 .sec3_box li:nth-child(3)>.img{background: url(../image/img13.jpg) no-repeat center / cover;}
+#season2:checked ~ #wrap .section3 .sec3_box li:nth-child(4)>.img{background: url(../image/img11.jpg) no-repeat center / cover;}
 
 
 
