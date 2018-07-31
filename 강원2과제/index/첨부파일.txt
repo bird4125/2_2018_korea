@@ -1,0 +1,96 @@
+nav
+
+- HOME
+  Home Shop1
+  Home Shop2
+  Home Shop3
+
+- SHOP
+  - SHOP LAYHOUTS
+    SHOP LAYHOUTS1
+    SHOP LAYHOUTS2
+    SHOP LAYHOUTS3
+    SHOP LAYHOUTS4
+
+  - SHOP PAGES
+    SHOP PAGES1
+    SHOP PAGES2
+    SHOP PAGES3
+    SHOP PAGES4
+    SHOP PAGES5
+
+  - PRODUCT TYPES
+    PRODUCT TYPES1
+    PRODUCT TYPES2
+    PRODUCT TYPES3
+    PRODUCT TYPES4
+    PRODUCT TYPES5
+    PRODUCT TYPES6
+
+- BLOG
+  - BLOG LAYHOUTS
+    BLOG LAYHOUTS1
+    BLOG LAYHOUTS2
+    BLOG LAYHOUTS3
+    BLOG LAYHOUTS4
+
+  - BLOG PAGES
+    BLOG PAGES1
+    BLOG PAGES2
+    BLOG PAGES3
+    BLOG PAGES4
+    BLOG PAGES5
+
+  - POST FORMATS
+    POST FORMATS1
+    POST FORMATS2
+    POST FORMATS3
+    POST FORMATS4
+    POST FORMATS5
+    POST FORMATS6
+
+- PORTFOLIO
+  PORTFOLIO1
+  PORTFOLIO2
+  PORTFOLIO3
+
+- ABOUT
+  ABOUT1
+  ABOUT2
+  ABOUT3
+
+------------------------------------------------------
+
+footer
+
+Shipping & Returns
+Secure Shopping
+International Shipping
+Affiliates
+Contact
+
+My Accout
+Shopping Cart
+Wishlist
+Custom Link
+Help
+
+Our Blog
+About Our Shop
+Secure Shopping
+Privacy Policy
+Delivery infomation
+
+Address: 123 Yeosu,Chunnam
+Email: info@skills.com
+Phone: 070.1234.1234 
+
+------------------------------------------------------
+
+copyright
+
+CONTACT US
+SITEMAP
+TERM & CONDITIONS
+GIFT VOUCHERS
+BESTSELLERS
