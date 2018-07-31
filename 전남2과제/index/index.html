@@ -1,123 +1,365 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-	<link rel="stylesheet" type="text/css" href="./css/style.css">
-	<link rel="stylesheet" type="text/css" href="./font/">
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./font/">
 </head>
+
 <body>
-	<section class="main">
-		<div class="top">
-			<div>
-				<div class="logo">YEOSU <br><span>TOUR</span></div>
-				<div class="nav">
-					<a href="#">관광지</a>
-					<a href="#">사진콘테스트</a>
-					<a href="#">낭만버스</a>
-				</div>
-				<div class="menu">
-					<ul>
-						<li></li>
-						<li></li>
-						<li></li>
-					</ul>
-				</div>
-			</div>
-			<div class="under_bar">
-				
-			</div>
-		</div>
-		<div class="ment"></div>
-	</section>
-	<section class="info">
-		<input type="radio" name="infos" id="chip1">
-		<input type="radio" name="infos" id="chip2">
-		<input type="radio" name="infos" id="chip3">
-		<input type="radio" name="infos" id="chip4">
-		<input type="radio" name="infos" id="chip5">
-		<input type="radio" name="infos" id="chip6">
-		<input type="radio" name="infos" id="chip7">
-		<input type="radio" name="infos" id="chip8">
-		<input type="radio" name="infos" id="chip9">
-		<input type="radio" name="infos" id="chip10">
-		<div class="info_ment">
-			<h3>"한려수도의 기점을 이루는 푸르고 막은 바다 여수"</h3>
-			<p>예로부터 농경과 어로가 발달한 양향이었으며, 임진왜란을 극복한 이 충무공과 그를 따르던 선열들의 얼이 듬뿍 담겨진 호국충절의 고장이다.</p>
-		</div>
-		<div class="info_content">
-				<div>
-					<label for="chip1" class="label_box">
-						<div class="slide_about">
-							<h3>오동도</h3>
-							<p>사계절 사람들이 찾아가는 곳!!!</p>
-						</div>
-					</label>
-					<label for="chip2" class="label_box">
-						<div class="slide_about">
-							<h3>여수밤바다/산단야경</h3>
-							<p>낭만과 황홀함이 넘치는 여수 도심 야경</p>
-						</div>
-					</label>
-					<label for="chip3" class="label_box">
-						<div class="slide_about">
-							<h3>향일암</h3>
-							<p>커다란 바위 동굴인 일주문을 지나 만나는 새로운 세상</p>
-						</div>
-					</label>
-					<label for="chip4" class="label_box">
-						<div class="slide_about">
-							<h3>금오도 비렁길</h3>
-							<p>'비렁'은 벼랑(졀벽)의 여수사투리</p>
-						</div>
-					</label>
-					<label for="chip5" class="label_box">
-						<div class="slide_about">
-							<h3>여수세계 박람회장</h3>
-							<p>끝없이 펼쳐진 바다와 공연이벤트</p>
-						</div>
-					</label>
-					<label for="chip6" class="label_box">
-						<div class="slide_about">
-							<h3>진남관</h3>
-							<p>조선시대 400년간 수군의 본거지였던 여수</p>
-						</div>
-					</label>
-					<label for="chip7" class="label_box">
-						<div class="slide_about">
-							<h3>해상케이블카</h3>
-							<p>끝없이 펼쳐진 바다경관</p>
-						</div>
-					</label>
-					<label for="chip8" class="label_box">
-						<div class="slide_about">
-							<h3>이순신대교</h3>
-							<p>여수에서 광양을 이어주는 순수 우리 기술로 만든 국내 첫 현수교</p>
-						</div>
-					</label>
-					<label for="chip9" class="label_box">
-						<div class="slide_about">
-							<h3>거문도 백도</h3>
-							<p>남해의 아름다운 섬 거문도와 백도</p>
-						</div>
-					</label>
-					<label for="chip10" class="label_box">
-						<div class="slide_about">
-							<h3>영취산진달래</h3>
-							<p>온 산이 붉게 물들어 가슴이 먹먹하도록 만드는 진달래</p>
-						</div>
-					</label>
-				</div>
-		</div>
-	</section>
-	<section class="contest">
-		
-	</section>
-	<section class="bus">
-		
-	</section>
-	<section class="footer">
-		
-	</section>
+    <section class="main">
+        <input type="checkbox" name="menuspawn" id="menus">
+        <div class="top">
+            <div>
+                <div class="logo">YEOSU
+                    <br><span>TOUR</span></div>
+                <div class="nav">
+                    <a href="#sec1">관광지</a>
+                    <a href="#sec2">사진콘테스트</a>
+                    <a href="#sec3">낭만버스</a>
+                </div>
+                <div class="menu">
+                    <label for="menus">
+                        <ul class="WHITE">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </label>
+                    <label for="menus">
+                    	<ul class="BLACK">
+                    	    <li></li>
+                    	    <li></li>
+                    	</ul>
+                    </label>
+                </div>
+            </div>
+            <div class="under_bar">
+            </div>
+        </div>
+        <div class="blue_box"></div>
+        <div class="menu_box">
+            <p>MENU1</p>
+            <p>MENU2</p>
+            <p>MENU3</p>
+        </div>
+        <div class="auto">
+        	<div class="moving">
+        		<div class="cursor"></div>
+        	</div>
+        	<p class="beauty">BEAUTIFUL YEOSU</p>
+        </div>
+    </section>
+    <section class="info" id="sec1">
+        <input type="radio" name="infos" id="chip1">
+        <input type="radio" name="infos" id="chip2">
+        <input type="radio" name="infos" id="chip3" checked>
+        <input type="radio" name="infos" id="chip4">
+        <input type="radio" name="infos" id="chip5">
+        <input type="radio" name="infos" id="chip6">
+        <input type="radio" name="infos" id="chip7">
+        <input type="radio" name="infos" id="chip8">
+        <input type="radio" name="infos" id="chip9">
+        <input type="radio" name="infos" id="chip10">
+        <div class="info_ment">
+            <h3>"한려수도의 기점을 이루는 푸르고 막은 바다 여수"</h3>
+            <p>예로부터 농경과 어로가 발달한 양향이었으며, 임진왜란을 극복한 이 충무공과 그를 따르던 선열들의 얼이 듬뿍 담겨진 호국충절의 고장이다.</p>
+        </div>
+        <div class="info_content">
+            <div>
+                <label for="chip1" class="label_box">
+                    <div class="slide_about">
+                        <div>
+                            <h3>오동도</h3>
+                            <p>사계절 사람들이 찾아가는 곳!!!</p>
+                            <p>주소 : 전라남도 여수시 오동도로 222</p>
+                        </div>
+                    </div>
+                </label>
+                <label for="chip2" class="label_box">
+                    <div class="slide_about">
+                        <div>
+                            <h3>여수밤바다/산단야경</h3>
+                            <p>낭만과 황홀함이 넘치는 여수 도심 야경</p>
+                            <p>주소 : 전라남도 여수시 종화동</p>
+                        </div>
+                    </div>
+                </label>
+                <label for="chip3" class="label_box">
+                    <div class="slide_about">
+                        <div>
+                            <h3>향일암</h3>
+                            <p>커다란 바위 동굴인 일주문을 지나 만나는 새로운 세상</p>
+                            <p>주소 : 전라남도 여수시 돌산읍 향일암로 60</p>
+                        </div>
+                    </div>
+                </label>
+                <label for="chip4" class="label_box">
+                    <div class="slide_about">
+                        <div>
+                            <h3>금오도 비렁길</h3>
+                            <p>'비렁'은 벼랑(졀벽)의 여수사투리</p>
+                            <p>주소 : 전라남도 여수시 남면 심장리</p>
+                        </div>
+                    </div>
+                </label>
+                <label for="chip5" class="label_box">
+                    <div class="slide_about">
+                        <div>
+                            <h3>여수세계 박람회장</h3>
+                            <p>끝없이 펼쳐진 바다와 공연이벤트</p>
+                            <p>주소 : 전라남도 여수시 수정동</p>
+                        </div>
+                    </div>
+                </label>
+                <label for="chip6" class="label_box">
+                    <div class="slide_about">
+                        <div>
+                            <h3>진남관</h3>
+                            <p>조선시대 400년간 수군의 본거지였던 여수</p>
+                            <p>주소 : 전라남도 여수시 동문로 11 망해루</p>
+                        </div>
+                    </div>
+                </label>
+                <label for="chip7" class="label_box">
+                    <div class="slide_about">
+                        <div>
+                            <h3>해상케이블카</h3>
+                            <p>끝없이 펼쳐진 바다경관</p>
+                            <p>주소 : 전라남도 여수시 돌산읍 돌산로 3600-1(돌산공원)</p>
+                        </div>
+                    </div>
+                </label>
+                <label for="chip8" class="label_box">
+                    <div class="slide_about">
+                        <div>
+                            <h3>이순신대교</h3>
+                            <p>여수에서 광양을 이어주는 순수 우리 기술로 만든 국내 첫 현수교</p>
+                            <p>주소 : 전라남도 여수시 묘도동</p>
+                        </div>
+                    </div>
+                </label>
+                <label for="chip9" class="label_box">
+                    <div class="slide_about">
+                        <div>
+                            <h3>거문도 백도</h3>
+                            <p>남해의 아름다운 섬 거문도와 백도</p>
+                            <p>주소 : 전라남도 여수시 삼산면 거문리 거문도</p>
+                        </div>
+                    </div>
+                </label>
+                <label for="chip10" class="label_box">
+                    <div class="slide_about">
+                        <div>
+                            <h3>영취산진달래</h3>
+                            <p>온 산이 붉게 물들어 가슴이 먹먹하도록 만드는 진달래</p>
+                            <p>주소 : 전라남도 여수시 상암동</p>
+                        </div>
+                    </div>
+                </label>
+            </div>
+        </div>
+    </section>
+    <section class="contest" id="sec2">
+        <div class="con_wrap">
+            <div class="ment">
+                <p>사진을 찍어 멋진여수를 모두에게 보여주기</p>
+                <h3 class="con_title">여수사진 콘테스트</h3>
+            </div>
+            <ul class="top_btm">
+                <li class="top">
+                    <ul>
+                        <li class="top_left">
+                            <ul>
+                                <li class="t_l_t">
+                                    <div class="box">
+                                        <div class="layer">MORE</div>
+                                    </div>
+                                    <div class="box">
+                                        <div class="layer">MORE</div>
+                                    </div>
+                                    <div class="box">
+                                        <div class="layer">MORE</div>
+                                    </div>
+                                </li>
+                                <li class="t_l_b">
+                                    <div class="box">
+                                        <div class="layer">MORE</div>
+                                    </div>
+                                    <div class="box">
+                                        <div class="layer">MORE</div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="top_right">
+                            <div class="box">
+                                <div class="layer">MORE</div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                <li class="btm">
+                    <ul>
+                        <li class="btm_left">
+                            <div class="box">
+                                <div class="layer">MORE</div>
+                            </div>
+                        </li>
+                        <li class="btm_right">
+                            <div class="box">
+                                <div class="layer">MORE</div>
+                            </div>
+                            <div class="box">
+                                <div class="layer">MORE</div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="bus" id="sec3">
+        <div class="bus_wrap">
+            <div class="bus_ment">
+                <p>버스를 타고 편안하게 여수한바퀴</p>
+                <h2>여수낭만버스</h2>
+            </div>
+            <ul class="bus_layer">
+            	<input type="radio" name="busstop" id="course1" checked>
+            	<input type="radio" name="busstop" id="course2">
+            	<input type="radio" name="busstop" id="course3">
+            	<input type="radio" name="busstop" id="course4">
+            	<input type="radio" name="busstop" id="course5">
+            	<input type="radio" name="busstop" id="course6">
+                <li class="bus_left">
+                	<div class="c_list">
+                		<label for="course1">
+                			<div class="border"></div>
+                		여수 낭만버스 - 제 1 코스</label>
+                		<label for="course2">여수 낭만버스 - 제 2 코스</label>
+                		<label for="course3">여수 낭만버스 - 토요유적코스</label>
+                		<label for="course4">여수 낭만버스 - 야경코스</label>
+                		<label for="course5">여수 낭만버스 - 주간코스</label>
+                		<label for="course6">여수 낭만버스 - 야간코스</label>
+                	</div>
+                </li>
+                <li class="bus_right">
+                	<div class="card cd1">
+                		<div class="c_name">
+                			<p>제 1 코스</p>
+                		</div>
+                		<div class="c_info">
+                			<div class="course">
+                				<p>엑스포역 - 오동도 - 진남관 - 해양수산과학관 - 향일암 - 여수수산시장 - 엑스포역</p>
+                			</div>
+                			<div class="cost">
+                				<p>소요시간 : 7시간 20분</p>
+                				<p>요금 : 9,000원</p>
+                			</div>
+                		</div>
+                	</div>
+                	<div class="card cd2">
+                		<div class="c_name">
+                			<p>제 2 코스</p>
+                		</div>
+                		<div class="c_info">
+                			<div class="course">
+                				<p>엑스포역 - 오동도 - 진남관 - 해양수산과학관 - 향일암 - 여수수산시장 - 엑스포역</p>
+                			</div>
+                			<div class="cost">
+                				<p>소요시간 : 7시간 20분</p>
+                				<p>요금 : 9,000원</p>
+                			</div>
+                		</div>
+                	</div>
+                	<div class="card cd3">
+                		<div class="c_name">
+                			<p>제 3 코스</p>
+                		</div>
+                		<div class="c_info">
+                			<div class="course">
+                				<p>엑스포역 - 오동도 - 진남관 - 해양수산과학관 - 향일암 - 여수수산시장 - 엑스포역</p>
+                			</div>
+                			<div class="cost">
+                				<p>소요시간 : 7시간 20분</p>
+                				<p>요금 : 9,000원</p>
+                			</div>
+                		</div>
+                	</div>
+                	<div class="card cd4">
+                		<div class="c_name">
+                			<p>제 4 코스</p>
+                		</div>
+                		<div class="c_info">
+                			<div class="course">
+                				<p>엑스포역 - 오동도 - 진남관 - 해양수산과학관 - 향일암 - 여수수산시장 - 엑스포역</p>
+                			</div>
+                			<div class="cost">
+                				<p>소요시간 : 7시간 20분</p>
+                				<p>요금 : 9,000원</p>
+                			</div>
+                		</div>
+                	</div>
+                	<div class="card cd5">
+                		<div class="c_name">
+                			<p>제 5 코스</p>
+                		</div>
+                		<div class="c_info">
+                			<div class="course">
+                				<p>엑스포역 - 오동도 - 진남관 - 해양수산과학관 - 향일암 - 여수수산시장 - 엑스포역</p>
+                			</div>
+                			<div class="cost">
+                				<p>소요시간 : 7시간 20분</p>
+                				<p>요금 : 9,000원</p>
+                			</div>
+                		</div>
+                	</div>
+                	<div class="card cd6">
+                		<div class="c_name">
+                			<p>제 6 코스</p>
+                		</div>
+                		<div class="c_info">
+                			<div class="course">
+                				<p>엑스포역 - 오동도 - 진남관 - 해양수산과학관 - 향일암 - 여수수산시장 - 엑스포역</p>
+                			</div>
+                			<div class="cost">
+                				<p>소요시간 : 7시간 20분</p>
+                				<p>요금 : 9,000원</p>
+                			</div>
+                		</div>
+                	</div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="email">
+            <div>
+                <h3 class="col">문의하기</h3>
+                <ul>
+                    <input type="text" name="text1" placeholder="E-Mail">
+                    <li></li>
+                    <input type="text" name="text2" placeholder="Title">
+                    <li></li>
+                    <input type="text" name="text3" placeholder="Content">
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+        <div class="icons">
+            <div>
+                <div class="r_icon">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="r_ment">COPYRIGHT © WEBSKILLS. ALL RIGHTS RESERVED.</div>
+            </div>
+        </div>
+    </section>
 </body>
+
 </html>
