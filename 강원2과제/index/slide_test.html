@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		* {margin:0; padding:0;}
+		ul, li { list-style: none; }
+		input { display: none }
+		.slide { width:1000px; margin:0 auto; height:400px; position: relative; overflow: hidden}
+		.slide ul { width:500%; height:100%;  display: flex; margin-left:-100%; transition: 1s;}
+		.slide li { width:20%; height:100%; }
+		.slide li.slide1 { background: #ffa; }
+		.slide li.slide2 { background: #faa; }
+		.slide li.slide3 { background: #afa; }
+		#pos1-2:checked ~ .slide ul { animation:slide1 1s; margin-left:-100%;}
+		#pos1:checked ~ .slide ul { margin-left:-100%;}
+		#pos2:checked ~ .slide ul { margin-left:-200%;}
+		#pos3:checked ~ .slide ul { margin-left:-300%;}
+		#pos3-2:checked ~ .slide ul { animation:slide3 1s;  margin-left:-300%;}
+
+		#pos1:checked ~ .slide .pos label:nth-child(1),
+		#pos1-2:checked ~ .slide .pos label:nth-child(1),
+		#pos2:checked ~ .slide .pos label:nth-child(2),
+		#pos3-2:checked ~ .slide .pos label:nth-child(3),
+		#pos3:checked ~ .slide .pos label:nth-child(3) { background:#666 }
+
+		.arrow { position: absolute; top:calc(50% - 25px); display: inline-block; width:50px; height:50px; color:#666;  opacity: 0.5; font-size:50px;}
+		.arrow.left{ left:0; }
+		.arrow.left label:before{ content:"<"; }
+		.arrow.right{ right:0; }
+		.arrow.right label:before{ content:">"; }
+		.arrow>label{display:none;}
+
+		#pos1:checked ~ .slide .arrow.left label:nth-child(1),
+		#pos1:checked ~ .slide .arrow.right label:nth-child(1),
+		#pos1-2:checked ~ .slide .arrow.left label:nth-child(1),
+		#pos1-2:checked ~ .slide .arrow.right label:nth-child(1),
+		#pos2:checked ~ .slide .arrow.left label:nth-child(2),
+		#pos2:checked ~ .slide .arrow.right label:nth-child(2),
+		#pos3:checked ~ .slide .arrow.left label:nth-child(3),
+		#pos3:checked ~ .slide .arrow.right label:nth-child(3),
+		#pos3-2:checked ~ .slide .arrow.left label:nth-child(3),
+		#pos3-2:checked ~ .slide .arrow.right label:nth-child(3){display:block;}
+
+		.pos{ position: absolute; bottom:10px; text-align: center; left: 0;right: 0; }
+		.pos label{--size:20px; width:var(--size); height:var(--size); border-radius:var(--size); background:#fff; display:inline-block;}
+
+		@keyframes slide1 {
+			from { margin-left:-300%; }
+			to { margin-left:-400%; }
+		}
+		@keyframes slide3 {
+			from { margin-left:-100%; }
+			100% { margin-left:0; }
+		}
+	</style>
+</head>
+<body>
+	<input type="radio" name="pos" id="pos1" checked>
+	<input type="radio" name="pos" id="pos1-2">
+	<input type="radio" name="pos" id="pos2">
+	<input type="radio" name="pos" id="pos3">
+	<input type="radio" name="pos" id="pos3-2">
+	<div class="slide">
+		<ul>
+			<li class="slide3">3</li>
+			<li class="slide1">1</li>
+			<li class="slide2">2</li>
+			<li class="slide3">3</li>
+			<li class="slide1">1</li>
+		</ul>
+		<div class="arrow left">
+			<label for="pos3-2"></label>
+			<label for="pos1"></label>
+			<label for="pos2"></label>
+		</div>
+		<div class="arrow right">
+			<label for="pos2"></label>  
+			<label for="pos3"></label>
+			<label for="pos1-2"></label>
+		</div>
+		<p class="pos">
+			<label for="pos1"></label>
+			<label for="pos2"></label>
+			<label for="pos3"></label>
+		</p>
+	</div>
+</body>
+</html>
