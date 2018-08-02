@@ -1,0 +1,13 @@
+slide
+
+- Lorem ipsum dolor sit amet, consectetur adipisicing elit1
+- Lorem ipsum dolor sit amet, consectetur adipisicing elit2
+- Lorem ipsum dolor sit amet, consectetur adipisicing elit3
+- Lorem ipsum dolor sit amet, consectetur adipisicing elit4
+- Lorem ipsum dolor sit amet, consectetur adipisicing elit5
+
+
+최신 개봉작
+
+- 영화제목000
+- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
