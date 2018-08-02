@@ -1,126 +1,308 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-	<link rel="stylesheet" type="text/css" href="./common/css.css">
-	<link rel="stylesheet" type="text/css" href="./font-awesome/css/font-awesome.css">
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./common/css.css">
+    <link rel="stylesheet" type="text/css" href="./font-awesome/css/font-awesome.css">
 </head>
-<body>
-	<section class="top_head">
-		<div class="top">
-			<ul>
-				<li class="logo"></li>
-				<li class="top_right">
-					<div class="nav">
-						<a href="#">소개</a>
-						<a href="#">여행지</a>
-						<a href="#">음식</a>
-						<a href="#">연혁</a>
-						<a href="#">고객센터</a>
-					</div>
-					<div class="log">
-						<label>로그인</label>
-						<label>회원가입</label>
-					</div>
-				</li>
-			</ul>
-		</div>
-		<div class="head">
-			<input type="radio" name="label" id="pos1" checked>
-			<input type="radio" name="label" id="pos2">
-			<input type="radio" name="label" id="pos3">
-			<input type="radio" name="label" id="pos4">
-			<ul class="slide">
-				<li class="page1">
-					<h3 class="slide_h3">여수에 오시는걸 권장합니다!</h3>
-					<span class="slide_span">
+
+<body> 
+	<input type="checkbox" name="modal" id="modal1">
+    <section class="top_head">
+        <div class="top">
+            <ul>
+                <div class="logo">
+                    <img src="./images/logo-white.png">
+                    <img src="./images/logo.png">
+                </div>
+                <li class="top_right">
+                    <div class="nav">
+                        <a href="#">소개</a>
+                        <a href="#">여행지</a>
+                        <a href="#">음식</a>
+                        <a href="#">연혁</a>
+                        <a href="#">고객센터</a>
+                    </div>
+                    <div class="log">
+                        <label for="modal1">로그인</label>
+                        <label>회원가입</label>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="head">
+            <input type="radio" name="label" id="pos1" checked>
+            <input type="radio" name="label" id="pos2">
+            <input type="radio" name="label" id="pos3">
+            <input type="radio" name="label" id="pos4">
+            <ul class="slide">
+                <li class="page1">
+                    <h3 class="slide_h3">여수에 오시는걸 권장합니다!</h3>
+                    <span class="slide_span">
 						여수시는 대한민국의 남해안 중앙지점에 입지하여 가까이는 동쪽의 경남 남해군과 서쪽의 고흥반도, 그리고 북쪽의 순천시와 접하고 있으며, 바다를 건너 서남쪽으로는 제주도와 동남쪽으로는 일본과 마주하고 있다.
 					</span>
-					<div class="deep"><p>자세히 보기</p></div>
-				</li>
-				<li class="page2">
-					<h3 class="slide_h3">여수는 아름답습니다.</h3>
-					<span class="slide_span">
+                    <div class="deep">
+                        <p>자세히 보기</p>
+                    </div>
+                </li>
+                <li class="page2">
+                    <h3 class="slide_h3">여수는 아름답습니다.</h3>
+                    <span class="slide_span">
 						관광지로 유명한 여수, 365일 모두 아름다운 장관을 연출합니다.
 					</span>
-					<div class="deep"><p>자세히 보기</p></div>
-				</li>
-				<li class="page3">
-					<h3 class="slide_h3">여수는 낭만적입니다.</h3>
-					<span class="slide_span">
+                    <div class="deep">
+                        <p>자세히 보기</p>
+                    </div>
+                </li>
+                <li class="page3">
+                    <h3 class="slide_h3">여수는 낭만적입니다.</h3>
+                    <span class="slide_span">
 						전국의 낭만있는 거리 공연가들이 여수 밤바다에 모인다! 음악소리 따라~ 불빛 따라~ 매주 주말, 낭만 버스커들과 함께 여수 밤바다에 낭만이 더해집니다.
 					</span>
-					<div class="deep"><p>자세히 보기</p></div>
-				</li>
-				<li class="page4">
-					<h3 class="slide_h3">밤의 도시 여수.</h3>
-					<span class="slide_span">
+                    <div class="deep">
+                        <p>자세히 보기</p>
+                    </div>
+                </li>
+                <li class="page4">
+                    <h3 class="slide_h3">밤의 도시 여수.</h3>
+                    <span class="slide_span">
 						여수는 밤의 도시입니다. 여수의 밤은 모든 것을 아름답게 만들어 줍니다. 엑스포장의 환한 불빛이 바다에 흔들릴때 사람들은 음악에 취합니다.
 					</span>
-					<div class="deep"><p>자세히 보기</p></div>
-				</li>
-			</ul>
-			<div class="labeling">
-				<label for="pos1"></label>
-				<label for="pos2"></label>
-				<label for="pos3"></label>
-				<label for="pos4"></label>
-			</div>
-		</div>
-	</section>
-	<section class="circles">
-		<ul>
-			<li>
-				<div class="c_icon">
-					<i class="fa fa-comments"></i>
-				</div>
-				<div class="c_title">사용자와 소통</div>
-				<p class="c_p">Yeosu Travel은 관광객분들의 의견들을 모아 더 나은 여행을 만들어나갑니다.</p>
-				<div class="bg"></div>
-			</li>
-			<li>
-				<div class="c_icon">
-					<i class="fa fa-gift"></i>
-				</div>
-				<div class="c_title">선물같은 도시</div>
-				<p class="c_p">해상 국립공원과 다도해 해상국립공원이 교차하는 아름다운 항구도시 입니다.</p>
-				<div class="bg"></div>
-			</li>
-			<li>
-				<div class="c_icon">
-					<i class="fa fa-camera"></i>
-				</div>
-				<div class="c_title">사진찍기 좋은 도시</div>
-				<p class="c_p">여수시는 다양한 여행지로 볼것이 많으며 자연과 잘 어울러져 보기 좋은 뷰가 많습니다.</p>
-				<div class="bg"></div>
-			</li>
-			<li>
-				<div class="c_icon">
-					<i class="fa fa-map"></i>
-				</div>
-				<div class="c_title">좋은 가이드맵</div>
-				<p class="c_p">Yeosu Travel은 25년전통의 가이드업체로 긴 역사로 노련한 테크닉이 있습니다.</p>
-				<div class="bg"></div>
-			</li>
-		</ul>
-	</section>
-	<section class="package">
-		<div class="in_pack">
-			<p class="pac_title"><strong>여수여행</strong> 패키지</p>
-		</div>
-	</section>
-	<section class="buy">
-		
-	</section>
-	<section class="review">
-		
-	</section>
-	<section class="bottom">
-		
-	</section>
-	<footer class="footer">
-	
-	</footer>
+                    <div class="deep">
+                        <p>자세히 보기</p>
+                    </div>
+                </li>
+            </ul>
+            <div class="labeling">
+                <label for="pos1"></label>
+                <label for="pos2"></label>
+                <label for="pos3"></label>
+                <label for="pos4"></label>
+            </div>
+        </div>
+    </section>
+    <section class="circles">
+        <ul>
+            <li>
+                <div class="c_icon">
+                    <i class="fa fa-comments"></i>
+                </div>
+                <div class="c_title">사용자와 소통</div>
+                <p class="c_p">Yeosu Travel은 관광객분들의 의견들을 모아 더 나은 여행을 만들어나갑니다.</p>
+                <div class="bg"></div>
+            </li>
+            <li>
+                <div class="c_icon">
+                    <i class="fa fa-gift"></i>
+                </div>
+                <div class="c_title">선물같은 도시</div>
+                <p class="c_p">해상 국립공원과 다도해 해상국립공원이 교차하는 아름다운 항구도시 입니다.</p>
+                <div class="bg"></div>
+            </li>
+            <li>
+                <div class="c_icon">
+                    <i class="fa fa-camera"></i>
+                </div>
+                <div class="c_title">사진찍기 좋은 도시</div>
+                <p class="c_p">여수시는 다양한 여행지로 볼것이 많으며 자연과 잘 어울러져 보기 좋은 뷰가 많습니다.</p>
+                <div class="bg"></div>
+            </li>
+            <li>
+                <div class="c_icon">
+                    <i class="fa fa-map"></i>
+                </div>
+                <div class="c_title">좋은 가이드맵</div>
+                <p class="c_p">Yeosu Travel은 25년전통의 가이드업체로 긴 역사로 노련한 테크닉이 있습니다.</p>
+                <div class="bg"></div>
+            </li>
+        </ul>
+    </section>
+    <section class="package">
+        <div class="in_pack">
+            <div class="pac_title">
+                <strong>여수여행</strong> 패키지
+                <div class="under u1"></div>
+                <div class="under u2"></div>
+            </div>
+            <div class="pack_part">
+                <ul>
+                    <li class="card c1">
+                        <div class="center"><i class="fa fa-search"></i></div>
+                        <div class="card_img">
+                            <div class="card_box">인기</div>
+                            <div class="card_ment">여수 엑스포</div>
+                        </div>
+                        <div class="ment">
+                            <div class="ment_top">
+                                여수는 2012년 엑스포 개최 지역 입니다. 여러가지 관람할수 있는게 많습니다.
+                            </div>
+                            <div class="ment_price">
+                                <span class="yel">50%</span> 60,000원 <span class="s_gray">120,000원</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="card c2">
+                        <div class="center"><i class="fa fa-search"></i></div>
+                        <div class="card_img">
+                            <div class="card_box">인기</div>
+                            <div class="card_ment">Big-O쇼</div>
+                        </div>
+                        <div class="ment">
+                            <div class="ment_top">
+                                해양도시 여수의 아이콘으로 탄생한 세계 최고의 뉴미디어쇼입니다!
+                            </div>
+                            <div class="ment_price">
+                                <span class="yel">50%</span> 50,000원 <span class="s_gray">100,000원</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="card c3">
+                        <div class="center"><i class="fa fa-search"></i></div>
+                        <div class="card_img">
+                            <div class="card_box">인기</div>
+                            <div class="card_ment">여수 해상 케이블카</div>
+                        </div>
+                        <div class="ment">
+                            <div class="ment_top">
+                                여수 해상 케이블카는 바다위를 지나 섬과 육지를 연결하는, 국내 최초의 해상 케이블카입니다.
+                            </div>
+                            <div class="ment_price">
+                                <span class="yel">30%</span> 27,000원 <span class="s_gray">90,000원</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="card c4">
+                        <div class="center"><i class="fa fa-search"></i></div>
+                        <div class="card_img">
+                            <div class="card_box">인기</div>
+                            <div class="card_ment">아쿠아 플라넷 여수</div>
+                        </div>
+                        <div class="ment">
+                            <div class="ment_top">
+                                해양동물을 구조하고 건강이 회복될 때까지 보호 및 치료해주는 기관입니다.
+                            </div>
+                            <div class="ment_price">
+                                <span class="yel">10%</span> 135,000원 <span class="s_gray">150,000원</span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="deep">
+                <p>VIEW MORE</p>
+            </div>
+        </div>
+    </section>
+    <section class="buy">
+        <ul>
+            <li class="buy_h2">여러분의 즐거운 여행을 보장합니다.</li>
+            <li class="border"></li>
+            <li class="buy_ment">Yeosu Travel은 관광객분들의 만족과 즐거움을 최대로 끌어올리기 위해 긴 역사동안 단 한번도 질문과 열정 그리고 고민을 놓치지 않은적이 없습니다.</li>
+            <li class="buttons">
+                <div class="btn blue">패키지 구매</div>
+                <div class="btn white">패키지 확인</div>
+            </li>
+        </ul>
+    </section>
+    <section class="review">
+        <div class="in_review">
+            <div class="Titles">
+                <div class="ti">
+                    <strong>후기</strong> Review
+                    <div class="under u1"></div>
+                    <div class="under u2"></div>
+                </div>
+            </div>
+            <ul class="reviews">
+                <li>
+                    <div class="rev_ment">
+                        <span class="ment">항상 월드를 자주이용하는 한사람으로써 이상품은 정말알차고 힐링이되는 여행이었던거같습니다 찰밥뜨고 4가지반찬담고 무지 바쁘고 힘들어 보였습니다 거기에는 쓰레기발생을줄이기위한거 라는걸 알겠는데 보는사람들이 안쓰럽고 또한 일괄식사를하지못하고 벌써</span>
+                        <div class="name">
+                            <div class="who">장춘배 회원님</div>
+                            <div class="who_small">9시간 전</div>
+                        </div>
+                    </div>
+                    <div class="rev_circle"><i class="fa fa-user"></i></div>
+                </li>
+                <li>
+                    <div class="rev_ment">
+                        <span class="ment">신랑가 여수여행 날씨는 더워지만 좋았음 오동도돌산바위가 기억에 많이 남음 가이드님이 오동도바닷가에서 찍어주신 사진 명작으로 남을듯 그리고 죽녹원도 대나무가 인상적이었음 한가지 아쉬운것은 먹거리가 생각보다 별로였음 앞으로 여행상품에 식단배정에 신경</span>
+                        <div class="name">
+                            <div class="who">이덕철 회원님</div>
+                            <div class="who_small">하루 전</div>
+                        </div>
+                    </div>
+                    <div class="rev_circle"><i class="fa fa-user"></i></div>
+                </li>
+                <li>
+                    <div class="rev_ment">
+                        <span class="ment">조금은 힘들지만 기억에 남는 알찬여행. 거동이 힘든 어르신이나, 아가와 함께하시려면 스스로 조절을 잘하셔야할것같습니다.(첫째날 걸음수 18000보ㅋ) 그래도 단기간에 허튼시간없이 알찬여행이었구요 총각이어서 명절날에도 가이드를 할수밖에없었던</span>
+                        <div class="name">
+                            <div class="who">양복자 회원님</div>
+                            <div class="who_small">2018-04-23</div>
+                        </div>
+                    </div>
+                    <div class="rev_circle"><i class="fa fa-user"></i></div>
+                </li>
+                <li>
+                    <div class="rev_ment">
+                        <span class="ment">항일암은 못갔지만 5월연휴라 양해말씀잘해주시고 기사님 너무 힘드셨을것같아요 우리 신랑이 자기가 운전했으면 집으로 왔을거라고 ㅋㅋ 여수도착하니 일반고객은 케이블카 크루즈대기시간이 2시간이였지만 월드패키지고객은 거의 순조롭게진행되었네요</span>
+                        <div class="name">
+                            <div class="who">김춘배 회원님</div>
+                            <div class="who_small">2018-03-12</div>
+                        </div>
+                    </div>
+                    <div class="rev_circle"><i class="fa fa-user"></i></div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="bottom">
+        <ul>
+            <li class="btm_left">
+                <span>NEWS LETTER</span>
+                <input type="text" name="emails" id="SUBMIT" placeholder="EMAIL" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" title="이메일 입력">
+                <div class="submit">SUBMIT</div>
+            </li>
+            <li class="btm_right">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-google"></i>
+                <i class="fa fa-instagram"></i>
+            </li>
+        </ul>
+    </section>
+    <footer class="footer">
+        <span class="foot">
+			Copyrightⓒ 2018, webskills all right reserved
+		</span>
+    </footer>
+    <div class="modals">
+    	<div class="modal_box">
+    		<div>
+    			<h2>로그인</h2>
+    			<p>The best Travel, 오늘도 함께 해요!</p>
+
+    			<ul class="login_sec">
+    				<li class="id">
+    					<input type="text" name="id">
+    					<div class="log_move">로그인</div>
+    				</li>
+    				<li class="pw">
+    					<input type="text" name="pw">
+    					<div class="log_move">비밀번호</div>
+    				</li>
+    			</ul>
+    			<div class="hr"></div>
+    			<ul class="login_btn">
+    				<label for="modal1"><li class="btn can">취소</li></label>
+    				<li class="btn suc">로그인</li>
+    			</ul>
+    		</div>
+    	</div>
+    </div>
 </body>
+
 </html>
